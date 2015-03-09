@@ -43,7 +43,16 @@ int collinear(point2D p, point2D q, point2D r);
 
 
 /* return 1 if c is  strictly left of ab; 0 otherwise */
-int left (point2D a, point2D b, point2D c); 
+int left (point2D a, point2D b, point2D c);
+
+/* return 1 if s1 and s2 intersect */
+int intersect(segment2D s1, segment2D s2);
+
+/* return 1 if s1 and s2 intersect at a proper point (point that’s interior to both) */
+int intersect_proper (segment2D s1, segment2D s2);
+
+/* return 1 if  s1 and s2 intersect improperly, i.e. the intersection point is the endpoint of one or both segments */
+int intersect_improper (segment2D s1,  segment2D s2);
 
 
 #endif

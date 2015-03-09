@@ -1,0 +1,26 @@
+Zackery Leman & Ivy Xing
+Computational Geometry
+A C++ implementation of detecting proper and improper line segment intersections
+
+Instructions:
+To compile and run either open the xcode project file in xcode and click run.
+(Product menu-> scheme-> edit scheme -> add your n argument )
+OR
+Use the provided makefile with the make command.
+
+Test cases:
+- Positions on canvas:
+Test case 1: Upper left
+Test case 2: Upper middle
+Test case 3: Upper right
+Test case 4: Lower left
+Test case 5: Lower middle
+Test case 6: Lower right
+
+- Proper intersections are drawn in yellow
+- Improper intersections are drawn in green
+- Non intersections are drawn in red
+
+
+
+

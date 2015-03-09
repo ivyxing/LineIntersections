@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A29513181A9D81FF00501E4E /* geom.c in Sources */ = {isa = PBXBuildFile; fileRef = A29513131A9D81FF00501E4E /* geom.c */; };
-		A29513191A9D81FF00501E4E /* rtimer.c in Sources */ = {isa = PBXBuildFile; fileRef = A29513151A9D81FF00501E4E /* rtimer.c */; };
-		A295131A1A9D81FF00501E4E /* viewPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A29513171A9D81FF00501E4E /* viewPoints.cpp */; };
+		28DB6EE11AABA59E00FB1F27 /* viewPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28DB6EDA1AABA59E00FB1F27 /* viewPoints.cpp */; };
+		28DB6EE21AABA59E00FB1F27 /* rtimer.c in Sources */ = {isa = PBXBuildFile; fileRef = 28DB6EDC1AABA59E00FB1F27 /* rtimer.c */; };
+		28DB6EE31AABA59E00FB1F27 /* geom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28DB6EE01AABA59E00FB1F27 /* geom.cpp */; };
 		A2E9973C1A9D5ACC0029ABF1 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E9973B1A9D5ACC0029ABF1 /* GLUT.framework */; };
 		A2E9973E1A9D5AD30029ABF1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E9973D1A9D5AD30029ABF1 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
@@ -27,16 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A29513131A9D81FF00501E4E /* geom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geom.c; sourceTree = "<group>"; };
-		A29513141A9D81FF00501E4E /* geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geom.h; sourceTree = "<group>"; };
-		A29513151A9D81FF00501E4E /* rtimer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtimer.c; sourceTree = "<group>"; };
-		A29513161A9D81FF00501E4E /* rtimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtimer.h; sourceTree = "<group>"; };
-		A29513171A9D81FF00501E4E /* viewPoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = viewPoints.cpp; sourceTree = "<group>"; };
-		A2E997281A9D56220029ABF1 /* orthosegintersection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = orthosegintersection; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2E9973A1A9D59EB0029ABF1 /* Makefile.make */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.make; sourceTree = "<group>"; };
+		28DB6EDA1AABA59E00FB1F27 /* viewPoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = viewPoints.cpp; path = LineIntersection/viewPoints.cpp; sourceTree = SOURCE_ROOT; };
+		28DB6EDB1AABA59E00FB1F27 /* rtimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtimer.h; path = LineIntersection/rtimer.h; sourceTree = SOURCE_ROOT; };
+		28DB6EDC1AABA59E00FB1F27 /* rtimer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rtimer.c; path = LineIntersection/rtimer.c; sourceTree = SOURCE_ROOT; };
+		28DB6EDD1AABA59E00FB1F27 /* readme.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.readme; path = LineIntersection/readme.readme; sourceTree = SOURCE_ROOT; };
+		28DB6EDE1AABA59E00FB1F27 /* Makefile.make */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Makefile.make; path = LineIntersection/Makefile.make; sourceTree = SOURCE_ROOT; };
+		28DB6EDF1AABA59E00FB1F27 /* geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geom.h; path = LineIntersection/geom.h; sourceTree = SOURCE_ROOT; };
+		28DB6EE01AABA59E00FB1F27 /* geom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = geom.cpp; path = LineIntersection/geom.cpp; sourceTree = SOURCE_ROOT; };
+		A2E997281A9D56220029ABF1 /* LineIntersection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LineIntersection; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E9973B1A9D5ACC0029ABF1 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		A2E9973D1A9D5AD30029ABF1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		A2F36E961AA0AE1E00E3D365 /* readme.readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.readme; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 		A2E997291A9D56220029ABF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2E997281A9D56220029ABF1 /* orthosegintersection */,
+				A2E997281A9D56220029ABF1 /* LineIntersection */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,13 +73,13 @@
 		A2E9972A1A9D56220029ABF1 /* orthosegintersection */ = {
 			isa = PBXGroup;
 			children = (
-				A29513131A9D81FF00501E4E /* geom.c */,
-				A29513141A9D81FF00501E4E /* geom.h */,
-				A29513151A9D81FF00501E4E /* rtimer.c */,
-				A29513161A9D81FF00501E4E /* rtimer.h */,
-				A29513171A9D81FF00501E4E /* viewPoints.cpp */,
-				A2E9973A1A9D59EB0029ABF1 /* Makefile.make */,
-				A2F36E961AA0AE1E00E3D365 /* readme.readme */,
+				28DB6EDA1AABA59E00FB1F27 /* viewPoints.cpp */,
+				28DB6EDB1AABA59E00FB1F27 /* rtimer.h */,
+				28DB6EDC1AABA59E00FB1F27 /* rtimer.c */,
+				28DB6EDD1AABA59E00FB1F27 /* readme.readme */,
+				28DB6EDE1AABA59E00FB1F27 /* Makefile.make */,
+				28DB6EDF1AABA59E00FB1F27 /* geom.h */,
+				28DB6EE01AABA59E00FB1F27 /* geom.cpp */,
 			);
 			path = orthosegintersection;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2E997271A9D56220029ABF1 /* orthosegintersection */ = {
+		A2E997271A9D56220029ABF1 /* LineIntersection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2E9972F1A9D56220029ABF1 /* Build configuration list for PBXNativeTarget "orthosegintersection" */;
+			buildConfigurationList = A2E9972F1A9D56220029ABF1 /* Build configuration list for PBXNativeTarget "LineIntersection" */;
 			buildPhases = (
 				A2E997241A9D56220029ABF1 /* Sources */,
 				A2E997251A9D56220029ABF1 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = orthosegintersection;
+			name = LineIntersection;
 			productName = orthosegintersection;
-			productReference = A2E997281A9D56220029ABF1 /* orthosegintersection */;
+			productReference = A2E997281A9D56220029ABF1 /* LineIntersection */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2E997231A9D56220029ABF1 /* Build configuration list for PBXProject "orthosegintersection" */;
+			buildConfigurationList = A2E997231A9D56220029ABF1 /* Build configuration list for PBXProject "LineIntersection" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2E997271A9D56220029ABF1 /* orthosegintersection */,
+				A2E997271A9D56220029ABF1 /* LineIntersection */,
 			);
 		};
 /* End PBXProject section */
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A295131A1A9D81FF00501E4E /* viewPoints.cpp in Sources */,
-				A29513191A9D81FF00501E4E /* rtimer.c in Sources */,
-				A29513181A9D81FF00501E4E /* geom.c in Sources */,
+				28DB6EE21AABA59E00FB1F27 /* rtimer.c in Sources */,
+				28DB6EE11AABA59E00FB1F27 /* viewPoints.cpp in Sources */,
+				28DB6EE31AABA59E00FB1F27 /* geom.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,21 +226,21 @@
 		A2E997301A9D56220029ABF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LineIntersection;
 			};
 			name = Debug;
 		};
 		A2E997311A9D56220029ABF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LineIntersection;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2E997231A9D56220029ABF1 /* Build configuration list for PBXProject "orthosegintersection" */ = {
+		A2E997231A9D56220029ABF1 /* Build configuration list for PBXProject "LineIntersection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2E9972D1A9D56220029ABF1 /* Debug */,
@@ -249,7 +249,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2E9972F1A9D56220029ABF1 /* Build configuration list for PBXNativeTarget "orthosegintersection" */ = {
+		A2E9972F1A9D56220029ABF1 /* Build configuration list for PBXNativeTarget "LineIntersection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2E997301A9D56220029ABF1 /* Debug */,
